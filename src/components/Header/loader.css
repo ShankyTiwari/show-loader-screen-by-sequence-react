@@ -1,0 +1,27 @@
+.app__header-loader {
+    height: 60px;
+    background-color: rgba(238, 238, 238, 0.21);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+}
+
+.app__header-image {
+    height: 80%;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.app__header-meta {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.app__header-meta div {
+    height: 10px;
+    margin-top: 10px;
+    width: 150px;
+}

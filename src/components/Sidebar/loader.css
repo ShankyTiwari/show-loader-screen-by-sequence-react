@@ -1,0 +1,27 @@
+.app__sidebar-loader {
+    height: 60px;
+    margin: 30px 10px 10px 10px;
+    flex: 1;
+}
+
+.sidebar__profile-image {
+    height: 80%;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.app__sidebar-meta {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.app__sidebar-meta div {
+    height: 10px;
+    margin-top: 10px;
+    width: 100px;
+}

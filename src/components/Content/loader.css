@@ -1,0 +1,36 @@
+.content__loader-container {
+   flex: 3;
+}
+
+.content__loader-firstfold,
+.content__loader-secondfold {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.content__loader-secondfold {
+    flex-direction: column;
+}
+
+.content__loader-image {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.content__loader-meta {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 15px;
+    vertical-align: top;
+    width: 100%;;
+}
+
+.content__loader-meta div,
+.content__loader-secondfold div {
+    height: 10px;
+    margin-top: 10px;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.app__main-sidebar {
+    padding-top: 10px;
+}
+
+.app__section-meta {
+    margin-bottom: 5px;
+}
+
+.app__user-detail {
+    height: 50px;
+    display: flex;
+    font-size: 14px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.app__user-detail img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.app__user-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app__user-status {
+    font-size: 10px;
+}

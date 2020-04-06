@@ -1,0 +1,26 @@
+.app__main-header {
+    height: 60px;
+    background-color: rgba(238, 238, 238, 0.21);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+}
+
+.app__user-profile {
+    height: 100%;
+    display: flex;
+}
+
+.app__user-profile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.app__user-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
